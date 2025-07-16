@@ -34,6 +34,7 @@ const checkWin=()=>{
 
  })
 }
+//want to play the music?uncomment the below line
 //music.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
