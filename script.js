@@ -35,7 +35,7 @@ const checkWin=()=>{
  })
 }
 //want to play the music?uncomment the below line
-//music.play();
+//music.play();-->uncomment this for music
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
