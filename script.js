@@ -23,6 +23,7 @@ const checkWin=()=>{
         [0, 4, 8, 5, 15, 45],
         [2, 4, 6, 5, 15, 135],
  ]
+ //logic to check wining condition
  wins.forEach(e=>{
   if((boxtext[e[0]].innerText===boxtext[e[1]].innerText) && (boxtext[e[1]].innerText===boxtext[e[2]].innerText)&&(boxtext[e[0]].innerText!=="")){
     document.querySelector('.info').innerText=boxtext[e[0]].innerText+" won "
